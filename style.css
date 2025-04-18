@@ -103,12 +103,7 @@
   .project-gallery img:hover {
     transform: scale(1.03) rotate(var(--imgTilt, 1deg));
   }
-.nothing-video {
-  border-radius: 12px;
-  margin-top: 20px;
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
-}
-  
+
   footer {
     text-align: center;
     padding: 20px;
