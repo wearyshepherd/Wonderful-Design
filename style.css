@@ -92,18 +92,18 @@
   
   .project-gallery img {
     width: calc(50% - 10px);
-    height: 250px; /* Or whatever height works best visually */
+    height: 250px;
     object-fit: cover;
     object-position: center;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
     transition: transform 0.3s ease;
-  }  
+  }
   
   .project-gallery img:hover {
-    transform: scale(1.03) rotate(var(--imgTilt, 1deg));
+    transform: scale(1.03);
   }
-
+  
   footer {
     text-align: center;
     padding: 20px;
