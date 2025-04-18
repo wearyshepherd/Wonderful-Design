@@ -1,100 +1,121 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Carlos Chavez - Marketing Portfolio</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header>
-    <h1>Carlos Chavez</h1>
-    <p>Media Communications</p>
-    <nav>
-      <a href="#100moons">100 Moons Auto</a>
-      <a href="#maverick">Maverick City Tour</a>
-      <a href="#nothing">Nothing Company</a>
-      <a href="#connect">Connect Coffee</a>
-      <a href="#goodgolly">Good Golly Juice</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
   
-  <section id="about">
-    <h2>About Me</h2>
-    <div class="about-container">
-      <img src="assets/profile.jpg" alt="Carlos Chavez" class="profile-photo">
-      <div class="about-text">
-        <p>I'm Carlos Chavez — a media communications specialist and creative technologist blending design, branding, and storytelling across digital platforms. With a passion for audio-visual work and front-end development, I’ve supported brands, events, and tech launches with a focus on bold visual identity and clean execution.</p>
-        <p>From developing juice brand websites to managing social media for music tours and launching futuristic tech visuals, I love crafting experiences that connect with people. Whether I’m editing podcasts, designing for a drop, or building a microsite — I show up with curiosity, style, and grit.</p>
-      </div>
-    </div>
-  </section>  
-
-  <section id="100moons">
-    <h2>100 Moons Automotive Clothing Line</h2>
-    <div class="project-gallery">
-      <img src="assets/100moons.png" alt="100 Moons Auto">
-      <img src="assets/100moons2.png" alt="100 Moons Auto">
-      <img src="assets/100moons3.png" alt="100 Moons Auto">
-      <img src="assets/100moons4.png" alt="100 Moons Auto">
-    </div>
-    <p>I collaborated on the visual branding and launch content for the 100 Moons automotive-inspired fashion line. My work included designing digital lookbooks, organizing product photography sessions, and creating web and social assets to represent the fusion of speed, streetwear, and minimalist style.</p>
-  </section>
-
-  <section id="maverick">
-    <h2>Maverick City Worship</h2>
-    <div class="project-gallery">
-      <img src="assets/maverickcitytour.png" alt="Maverick City Tour">
-      <img src="assets/maverickcitytour2.png" alt="Maverick City Tour">
-      <img src="assets/maverickcitytour3.png" alt="Maverick City Tour">
-      <img src="assets/maverickcitytour4.png" alt="Maverick City Tour">
-    </div>
-    <p>I worked alongside the media team for Maverick City Tour, capturing backstage moments, live performances, and crowd energy. I helped edit and publish dynamic short-form video content, tour recap reels, and coordinated daily updates across social platforms for audience retention and growth.</p>
-  </section>
-
-  <section id="nothing">
-    <h2>Nothing Company</h2>
-    <div class="project-gallery">
-      <img src="assets/Nothing.png" alt="Nothing Project Image 1">
-      <img src="assets/Nothing2.png" alt="Nothing Project Image 2">
-      <img src="assets/Nothing3.png" alt="Nothing Project Image 3">
-      <img src="assets/Nothing4.png" alt="Nothing Project Image 4">
-    </div>
-    <p>At Nothing Company, I led design and content coordination for product rollouts and helped develop a futuristic, minimal aesthetic using interactive assets and high-resolution visual storytelling. I collaborated with design and marketing teams to plan and produce launch visuals for the Phone (3a) and accessories. My contributions included visual direction for motion teasers, product shots, and environmental photos, along with short-form editing, typography layout planning, and executing strategic social drops for maximum engagement.</p>
-  </section>
-
-  <section id="connect">
-    <h2>Connect Coffee</h2>
-    <div class="project-gallery">
-      <img src="assets/connectcoffee.png" alt="Connect Coffee">
-      <img src="assets/connectcoffee2.png" alt="Connect Coffee">
-      <img src="assets/connectcoffee3.png" alt="Connect Coffee">
-      <img src="assets/connectcoffee4.png" alt="Connect Coffee">
-    </div>
-    <p>I helped define the voice and look of Connect Coffee through branding, photography, and website updates. From story-driven visuals to lifestyle product shoots, I created assets for packaging, point-of-sale materials, and digital marketing campaigns that highlighted the culture behind the cup.</p>
-  </section>
-
-  <section id="goodgolly">
-    <h2>Good Golly Juice</h2>
-    <div class="project-gallery">
-      <img src="assets/goodgolly.png" alt="Good Golly Juice">
-      <img src="assets/goodgolly2.png" alt="Good Golly Juice">
-      <img src="assets/goodgolly3.png" alt="Good Golly Juice">
-      <img src="assets/goodgolly4.png" alt="Good Golly Juice">
-    </div>
-    <p>For Good Golly Juice, I built the entire digital identity—from logo to website—using clean, punchy visuals that matched the brand’s fresh and vibrant tone. I also managed product photography, designed social media content, and integrated ordering functionality with payment methods like PayPal and Zelle.</p>
-  </section>
-
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:dannyxcamp@gmail.com">dannyxcamp@gmail.com</a></p>
-    <p>Phone: 559-302-8238</p>
-    <p><a href="https://www.linkedin.com/in/carlos-chavez-3085672a6/" target="_blank">LinkedIn Profile</a></p>
-  </section>
-
-  <footer>
-    <p>© 2025 Carlos Chavez. All rights reserved.</p>
-  </footer>
-</body>
-</html>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #FFEB84;
+    background-image: 
+      linear-gradient(to right, #f1c232 1px, transparent 1px),
+      linear-gradient(to bottom, #f1c232 1px, transparent 1px);
+    background-size: 30px 30px;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  header {
+    text-align: center;
+    background-color: #fff6cc;
+    padding: 40px 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  #about {
+    max-width: 1000px;
+    margin: 60px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-container {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .profile-photo {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  }
+  
+  .about-text {
+    flex: 1;
+    min-width: 250px;
+  }
+  
+  .about-text p {
+    margin-bottom: 10px;
+    color: #444;
+    line-height: 1.6;
+  }  
+  
+  nav {
+    margin-top: 20px;
+  }
+  
+  nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #5c410f;
+    font-weight: bold;
+  }
+  
+  section {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transform: rotate(var(--tilt, 0deg));
+  }
+  
+  section img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  .project-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .project-gallery img {
+    width: calc(50% - 10px);
+    height: 250px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease;
+  }
+  
+  .project-gallery img:hover {
+    transform: scale(1.03);
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9em;
+    background-color: #fff6cc;
+    margin-top: 40px;
+    border-top: 1px solid #e0c960;
+  }
+  
+  @media (max-width: 600px) {
+    .project-gallery img {
+      width: 100%;
+    }
+  }
+  
